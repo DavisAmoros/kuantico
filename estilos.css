@@ -70,7 +70,7 @@ body
 	float: left;
 	font-size: 0.8rem;
 	line-height: 50px;
-	margin: 0 0 0 350px;
+	margin: 0 0 0 150px;
 	padding: 0;
 }
 
@@ -88,3 +88,36 @@ body
 	width: 163px;
 }
 
+.Slider
+{
+	background-image: url("img/fondoSlider.gif");
+	background-repeat: no-repeat;
+	height: 275px;
+	text-align: center;
+}
+
+.Slider-h1
+{
+	color: white;
+	display: inline-block;
+	font-size: 30.5px;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 0px;
+	margin: 65px 0 28px 0;
+	padding: 0;
+	width: 690px;
+}
+
+
+.Slider-textoInferior
+{
+	background-color: white;
+	color: #66CA00;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-family: 'Dosis', sans-serif;
+	height: 32px;
+	margin: 0;
+	padding: 4px 0 0 0;
+	width: 754px;
+}

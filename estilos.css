@@ -1,0 +1,90 @@
+body
+{
+	background-color: red;
+	font-family: Open Sans;
+	font-size: 16px;
+	margin: 0;
+}
+
+.Header
+{
+	background-color: white;
+	height: 100px;
+}
+
+.Header-imagenContenedor
+{
+	display: inline-block;
+	float: left;
+	margin: 31px 0 0 103px;
+	padding: 0;
+}
+
+.Header-contactoContenedor
+{
+	display: inline-block;
+	float: right;
+	margin: 22px 103px 0 0;
+	text-align: center;
+}
+.Header-contactoTextoArriba
+{
+	color: #66CA00;
+	font-size: 0.9rem;
+	margin: 0;
+	padding: 0;
+}
+
+.Header-contactoBoton
+{
+	background-color: #66CA00;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	font-size: 0.9rem;
+	height: 30px;
+	margin: 5px 0 0 0;
+	padding: 0;
+	width: 147px;
+}
+
+.Footer
+{
+	background-color: #66CA00;
+	height: 50px;
+}
+
+.Footer-imagenContenedor
+{
+	display: inline-block;
+	float: left;
+	margin: 13px 0 0 103px;
+	padding: 0;
+	width: 140px;
+}
+
+.Footer-derechos
+{
+	color: white;
+	display: inline-block;
+	float: left;
+	font-size: 0.8rem;
+	line-height: 50px;
+	margin: 0 0 0 350px;
+	padding: 0;
+}
+
+.Footer-preguntasFrecuentes
+{
+	background-color: white;
+	border: 0;
+	border-radius: 30px;
+	color: #66CA00;
+	height: 31px;
+	margin: 9.5px 103px 9.5px 0px;
+	display: inline-block;
+	font-size: 0.8rem;
+	float: right;
+	width: 163px;
+}
+

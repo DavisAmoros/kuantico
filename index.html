@@ -7,86 +7,106 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="normalize.css">
 </head>
+
 <body>
-	<header>
-		<figure>
-			<img src="img/logo.gif">
+	<header class="Header">
+		<figure class="Header-imagenContenedor">
+			<img class="Header-imagen"src="img/logo.gif">
 		</figure>
-		<div>
-			<p>¿Tienes Dudas?</p>
-			<p>Contáctanos Aquí</p>
+		<div class="Header-contactoContenedor">
+			<p class="Header-contactoTextoArriba">¿Tienes Dudas?</p>
+			<button class="Header-contactoBoton">Contáctanos Aquí</button>
 		</div>	
 	</header>
-</body>
-<!--Inicio de Slider-->
-	<div>
-		<figure>
-			<img src="img/fondoSlider.gif">
+
+<!--Slider-->
+	<div class="Slider">
+		<figure class="Slider-imagenContenedor">
+			<img class="Slider-imagen"src="img/fondoSlider.gif">
 		</figure>
-		<h1>
+		<h1 class="Slider-h1">
 			Bienvenidos a la primera tienda online de microservicios de Diseño, Fotografía y Marketing Digital
 		</h1>
-		<p>
+		<p class="Slider-textoInferior">
 			Con precios exclusivos para pequeños negocios, trabajadores independientes y estudiantes.
 		</p>	
 	</div>
 
 <!--Subtitulo 1-->
-	<p>
+	<p class="Subtitulo">
 		Todo a S/.50
 	</p>
 
 <!--Lista de MicroServicios-->
-	<section>
-		<article>
-			<figure>
-				<img src="img/servicio1.gif">
+	<section class="TodosLosMicroservicios">
+		<article class="Microservicio">
+			<figure class="Microservicio-imagenContenedor">
+				<img class="Microservicio-imagen"src="img/servicio1.gif">
 			</figure>
-			<h2>
+			<h2 class="Microservicio-titulo">
 				Diseño de Tarjetas Personales
 			</h2>
-			<button>
+			<button class="Microservicio-boton">
 				+Información
 			</button>
 		</article>
 	</section>
-	<div>
-		<figure>
-			<img src="img/servicio1.gif">
+	<div class="Mensaje">
+		<figure class="Mensaje-imagenContenedor">
+			<img class="Mensaje-imagen"src="img/servicio1.gif">
 		</figure>
-		<p>
+		<p class="Mensaje-texto">
 			Estamos trabajando en crear más microservicios. Si necesitas de un microservicio que no encuentras aquí enviándonos un correo a hola@digitalpaper.pe
 		</p>	
 	</div>
 
 <!--Subtitulo 2-->
-	<p>
+	<p class="Subtitulo">
 		Proceso de contratación de microservicios
 	</p>
-	<div>
-		<div>
-			<p>1°</p>
-			<p>Envíanos un mensaje a hola@digitalpaper.pe con los microservicios que deseas adquirir.</p>
+	<div class="Contratacion">
+		<div class="Contratacion-paso1">
+			<p class="Contratacion-numero">
+				1°
+			</p>
+			<p class="Contratacion-texto">
+				Envíanos un mensaje a hola@digitalpaper.pe con los microservicios que deseas adquirir.
+			</p>
 		</div>
-		<div>
-			<p>2°</p>
-			<p>Recibirás un link con el cual podrás pagar con tarjeta de crédito, débito, efectivo o transferencia bancaria.</p>
+		<div class="Contratacion-paso2">
+			<p class="Contratacion-numero">
+				2°
+			</p>
+			<p class="Contratacion-texto">
+				Recibirás un link con el cual podrás pagar con tarjeta de crédito, débito, efectivo o transferencia bancaria.
+			</p>
 		</div>
-		<div>
-			<p>3°</p>
-			<p>Definición de los plazos de entrega. Y luego la entrega de los mismos.</p>
+		<div class="Contratacion-paso3">
+			<p class="Contratacion-numero">
+				3°
+			</p>
+			<p class="Contratacion-texto">
+				Definición de los plazos de entrega. Y luego la entrega de los mismos.
+			</p>
 		</div>
 	</div>	
-	<p>
+
+<!--Mensaje IMPORTANTE-->
+	<p class="Importante">
 		<span>Importante!</span>Importante!<br/>Los microservicios de digitalpaper.pe no serán brindados a empresas cuyo negocio comercialice con productos de origen animal <span>(Sí, enserio)</span> ya que somos una empresa amigable con los animales. Por lo tanto si tu negocio impulsa el veganismo será acreedor a un <span>50% de descuento</span> por compras mayores a S/.100.
 	</p>	
-	<footer>
-		<figure>
-			<img src="img/logoBlanco.gif">
+
+<!--Footer-->
+	<footer class="Footer">
+		<figure class="Footer-imagenContenedor">
+			<img class="Footer-imagen"src="img/logo-blanco.gif">
 		</figure>
-		<p>Todos los derechos reservados - 2014</p>
-		<p>Preguntas Frecuentes</p>
+		<p class="Footer-derechos">Todos los derechos reservados - 2014</p>
+		<button class="Footer-preguntasFrecuentes">Preguntas Frecuentes</button>
 	</footer>
+
+	</body>
 </html>
 	

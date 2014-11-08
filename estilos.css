@@ -11,6 +11,90 @@ button
 	outline: none; /* Esto es para q no aparesca el marco azul en el boton cuando se presiona en chrome */
 }
 
+.Contratacion
+{
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #F4F5F6;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 0; /*para que se peguen totalmente los circulos*/
+	height: 288px;
+	left: 103px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 754px;
+}
+
+
+
+.Contratacion-pasosTodos
+{
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	padding: 0;
+	position: absolute;
+	text-align: center; /*para q se centren los 3 circulos*/
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%; /*para q se centren los 3 circulos*/
+}
+
+.Contratacion-paso1
+{
+	background-color: #66CA00;
+}
+
+.Contratacion-paso2
+{
+	background-color: #FF5D2A;
+}
+
+.Contratacion-paso3
+{
+	background-color: #0082FF;
+}
+
+.Contratacion-paso1,
+.Contratacion-paso2,
+.Contratacion-paso3
+{
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: white 5px solid;
+	display: inline-block;
+	height: 217px;
+	margin: 5px;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 217px;
+}
+
+.Contratacion-texto
+{
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	color: white;
+	font-size: 0.8rem;
+	margin: 0;
+	padding: 0 1rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: middle;
+}
+
 .Divisor
 {
 	background-color: white;
@@ -28,6 +112,7 @@ button
 	margin: 15px 0 0 103px;
 	padding: 0 5px 3px 5px;
 }
+
 .Header
 {
 	background-color: white;
@@ -49,6 +134,7 @@ button
 	margin: 22px 103px 0 0;
 	text-align: center;
 }
+
 .Header-contactoTextoArriba
 {
 	color: #66CA00;
@@ -60,8 +146,12 @@ button
 .Header-contactoBoton
 {
 	background-color: #66CA00;
-	border: 0px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	border: 0px;
 	color: white;
 	font-size: 0.9rem;
 	height: 30px;
@@ -70,6 +160,70 @@ button
 	width: 147px;
 }
 
+.Importante
+{
+	background-color: white;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: #f4f5f6 2px solid;
+	display: inline-block;
+	height: 124px;
+	margin: 25px 0 50px 0;
+	padding: 0;
+	position: relative;
+	left: 103px;
+	width: 754px;
+}
+
+.Importante-texto
+{
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	color: #676767;
+	font-size: 0.8rem;
+	margin: 0;
+	padding: 0 1rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: middle;
+}
+
+.Importante-texto span
+{
+	color: #66CA00;
+	font-weight: 500;
+}
+/*
+.Importante
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	left: 103px;
+	width: 734px;
+	height: 124px;
+}
+
+.Importante-texto
+{
+	background-color: white;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: #F4F5F6 2px solid;
+	font-size: 0.9rem;
+	position: absolute;
+	top: 50%;
+	vertical-align: middle;
+}
+*/
 .Footer
 {
 	background-color: #66CA00;
@@ -99,36 +253,44 @@ button
 .Footer-preguntasFrecuentes
 {
 	background-color: white;
-	border: 0;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-webkit-border-radius: 30px;
 	border-radius: 30px;
+	border: 0;
 	color: #66CA00;
+	display: inline-block;
+	float: right;
+	font-size: 0.8rem;
 	height: 31px;
 	margin: 9.5px 103px 9.5px 0px;
-	display: inline-block;
-	font-size: 0.8rem;
-	float: right;
 	width: 163px;
 }
 
 .Mensaje
 {
 	background-color: #66CA00;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	height: 100px;
-	position: relative;
 	left: 103px;
 	margin: 0 0 50px 0;
 	padding: 0;
+	position: relative;
 	width: 754px;
 }
 
 .Mensaje-imagenContenedor
 {
 	display: inline-block;
+	left: 29px;
 	margin: 0px; 
 	padding: 0px;
 	position: absolute;
-	left: 29px;
 	top: 25px;
 	width: 79px;
 }
@@ -139,10 +301,10 @@ button
 	display: inline-block;
 	font-size: 1rem;
 	font-weight: 400;
+	left: 123px;
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	left: 123px;
 	top: 27px;
 	width: 620px;
 }
@@ -150,10 +312,10 @@ button
 .Microservicio
 {
 	display: inline-block;
-	padding: 0;
-	position: relative;
 	left: 103px;
 	margin: 0 38px 50px 0;
+	padding: 0;
+	position: relative;
 	text-align: center;
 	vertical-align: top;
 	width: 226px;
@@ -162,8 +324,12 @@ button
 .Microservicio-boton
 {
 	background-color: white;
-	border: 1px #E1E1E1 solid;
+	-moz-border-radius: 17.5px;
+	-ms-border-radius: 17.5px;
+	-o-border-radius: 17.5px;
+	-webkit-border-radius: 17.5px;
 	border-radius: 17.5px;
+	border: 1px #E1E1E1 solid;
 	color: #B1B1B1;
 	font-size: 1rem;
 	height: 35px;
@@ -181,8 +347,8 @@ button
 
 .Microservicio-imagen
 {
-	margin: 0;
 	height: 140px;
+	margin: 0;
 	width: 226px;
 } 
 
@@ -197,11 +363,11 @@ button
 	color: #7F8080;
 	font-size: 15px;
 	font-weight: 400;
-	min-height: 50px;
 	margin: 10px 0 0 0;
+	min-height: 50px;
 	padding: 0 5px;
-	word-wrap: break-word;
 	width: 216px;
+	word-wrap: break-word;
 }
 
 .MicroserviciosTodos
@@ -221,9 +387,9 @@ button
 {
 	color: white;
 	display: inline-block;
+	font-family: 'Dosis', sans-serif;
 	font-size: 30.5px;
 	font-weight: 600;
-	font-family: 'Dosis', sans-serif;
 	letter-spacing: 0px;
 	margin: 65px 0 28px 0;
 	padding: 0;
@@ -236,8 +402,8 @@ button
 	background-color: white;
 	color: #66CA00;
 	display: inline-block;
-	font-size: 1.2rem;
 	font-family: 'Dosis', sans-serif;
+	font-size: 1.2rem;
 	font-weight: 700;
 	height: 32px;
 	margin: 0;

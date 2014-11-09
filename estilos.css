@@ -113,6 +113,66 @@ button{
 	padding: 0 5px 3px 5px;
 }
 
+/*Microservicios*/
+.Microservicio{
+	display: inline-block;
+	margin: 0 22px 50px 22px;
+	padding: 0;
+	text-align: center;
+	width: 226px;
+}
+
+.Microservicio-boton{
+	-moz-border-radius: 17.5px;
+	-ms-border-radius: 17.5px;
+	-o-border-radius: 17.5px;
+	-webkit-border-radius: 17.5px;
+	background-color: white;
+	border-radius: 17.5px;
+	border: 1px #E1E1E1 solid;
+	color: #B1B1B1;
+	font-size: 1rem;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+.Microservicio-boton:hover{
+	background-color: #66CA00;
+	border: none;
+	color: white;
+}
+
+.Microservicio-imagen{
+	height: 140px;
+	margin: 0;
+	width: 226px;
+} 
+
+.Microservicio-imagenContenedor{
+	margin: 0;
+	padding: 0;
+}
+
+.Microservicio-titulo{
+	color: #7F8080;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 10px 0 0 0;
+	min-height: 50px;
+	padding: 0 5px;
+	width: 216px;
+	word-wrap: break-word;
+}
+
+.MicroserviciosTodos{
+	font-size: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 89%;
+}
+
 
 
 

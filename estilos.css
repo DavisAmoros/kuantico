@@ -63,40 +63,59 @@ button{
 }
 
 /*Slider*/
-
 .Slider{
 	background-image: url("img/fondoSlider.gif");
-	background-repeat: no-repeat;
-	height: 275px;
-	text-align: center;
+	background-size: cover; /*Se adapta el fondo (Si pongo 100% se repite el fondo*/
+	height: 100%;
+	margin: 0 auto;
+	padding: 73px 0;
+	width: 100%;
 }
 
 .Slider-h1{
 	color: white;
-	display: inline-block;
 	font-family: 'Dosis', sans-serif;
 	font-size: 30.5px;
 	font-weight: 600;
-	letter-spacing: 0px;
-	margin: 65px 0 28px 0;
+	margin: 0 auto 25px auto;
 	padding: 0;
-	width: 690px;
+	text-align: center;
+	width: 80%;
 }
-
 
 .Slider-textoInferior
 {
 	background-color: white;
 	color: #66CA00;
-	display: inline-block;
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.2rem;
 	font-weight: 700;
-	height: 32px;
-	margin: 0;
-	padding: 4px 0 0 0;
-	width: 754px;
+	margin: 0 auto;
+	padding: 4px 10px;
+	text-align: center;
+	width: 75%;
 }
+
+/*Dividor 1 (Precio S/.50)*/
+.Divisor{
+	background-color: white;
+	border-bottom: 5px #F4F5F6 solid;
+	height: 40px; /*definir altura para poner las lineas una debajo de la otra*/
+	margin: 0 auto 25px auto;
+	padding: 0;
+}
+
+.Divisor-texto{
+	border-bottom: 5px #66CA00 solid;
+	color: #66CA00; 
+	display: inline-block;
+	margin: 15px 0 0 10%; /*necesario para superponer las lineas inferiores*/
+	padding: 0 5px 3px 5px;
+}
+
+
+
+
 
 
 .Contratacion
@@ -183,23 +202,6 @@ button{
 	vertical-align: middle;
 }
 
-.Divisor
-{
-	background-color: white;
-	border-bottom: 5px #F4F5F6 solid;
-	height: 40px; /*definir altura para poner las lineas una debajo de la otra*/
-	margin: 0 0 25px 0;
-	padding: 0;
-}
-
-.Divisor-texto
-{
-	border-bottom: 5px #66CA00 solid;
-	color: #66CA00; 
-	display: inline-block;
-	margin: 15px 0 0 103px;
-	padding: 0 5px 3px 5px;
-}
 
 
 
@@ -352,71 +354,7 @@ button{
 	width: 620px;
 }
 
-.Microservicio
-{
-	display: inline-block;
-	left: 103px;
-	margin: 0 38px 50px 0;
-	padding: 0;
-	position: relative;
-	text-align: center;
-	vertical-align: top;
-	width: 226px;
-}
 
-.Microservicio-boton
-{
-	background-color: white;
-	-moz-border-radius: 17.5px;
-	-ms-border-radius: 17.5px;
-	-o-border-radius: 17.5px;
-	-webkit-border-radius: 17.5px;
-	border-radius: 17.5px;
-	border: 1px #E1E1E1 solid;
-	color: #B1B1B1;
-	font-size: 1rem;
-	height: 35px;
-	margin: 0;
-	padding: 0;
-	width: 150px;
-}
-
-.Microservicio-boton:hover
-{
-	background-color: #66CA00;
-	border: none;
-	color: white;
-}
-
-.Microservicio-imagen
-{
-	height: 140px;
-	margin: 0;
-	width: 226px;
-} 
-
-.Microservicio-imagenContenedor
-{
-	margin: 0;
-	padding: 0;
-}
-
-.Microservicio-titulo
-{
-	color: #7F8080;
-	font-size: 15px;
-	font-weight: 400;
-	margin: 10px 0 0 0;
-	min-height: 50px;
-	padding: 0 5px;
-	width: 216px;
-	word-wrap: break-word;
-}
-
-.MicroserviciosTodos
-{
-	font-size: 0;
-}
 
 
 

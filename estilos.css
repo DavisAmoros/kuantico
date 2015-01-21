@@ -1,3 +1,7 @@
+a{
+	text-decoration: none;
+}
+
 body{
 	background-color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -59,7 +63,13 @@ button{
 	margin: 5px 0 0 0;
 	padding: 0;
 	width: 147px;
+
 }
+
+.Header-contactoBoton:hover{
+	background-color: #5ba504;
+}
+
 
 /*Slider*/
 .Slider{
@@ -99,17 +109,21 @@ button{
 .Divisor{
 	background-color: white;
 	border-bottom: 5px #F4F5F6 solid;
-	height: 40px; /*definir altura para poner las lineas una debajo de la otra*/
-	margin: 0 auto 25px auto;
+	margin: 16px auto 25px auto;
+	height: 34px;
 	padding: 0;
+	text-align: center;
 }
 
 .Divisor-texto{
 	border-bottom: 5px #66CA00 solid;
 	color: #66CA00; 
 	display: inline-block;
-	margin: 15px 0 0 10%; /*necesario para superponer las lineas inferiores*/
-	padding: 0 5px 3px 5px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 9px 0 0 0;
+	padding: 0 5px 0 5px;
 }
 
 /*Microservicios*/
@@ -138,7 +152,7 @@ button{
 }
 
 .Microservicio-boton:hover{
-	background-color: #66CA00;
+	background-color: #676767;
 	border: none;
 	color: white;
 }
@@ -180,7 +194,7 @@ button{
 	-o-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 34px auto;
 	display: table;
 }
 
@@ -190,16 +204,14 @@ button{
 	float: left;
 }
 
-.Mensaje-imagenContenedor
-{
+.Mensaje-imagenContenedor{
 	margin: 0;
 	padding: 20px;
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.Mensaje-texto
-{
+.Mensaje-texto{
 	margin: 0;
 	padding: 10px 10px 10px 0;
 	display: table-cell;
@@ -210,128 +222,95 @@ button{
 }
 
 
+/*Proceso de Contratación*/
+.Contratacion{
+	font-size: 0;
+	margin: 0 auto; /*para q el section se centre en el viewport*/
+	padding: 0;
+	text-align: center; /*para q se centre los 3 dentro del section*/
+	width: 80%; 
+}
 
-
-
-.Contratacion
-{
+.Contratacion-paso{
+	background-color: #eff0f1;
+	color: #7f8080;
+	display: inline-block;
+	font-size: 0.9rem;
+	margin: 0 10px;
+	padding: 0;
+	vertical-align: top;
+	width: 236px;
+	min-height: 360px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-color: #F4F5F6;
 	border-radius: 5px;
-	display: inline-block;
-	font-size: 0; /*para que se peguen totalmente los circulos*/
-	height: 288px;
-	left: 103px;
+}
+
+.Contratacion-imagen{
 	margin: 0;
-	padding: 0;
-	position: relative;
-	width: 754px;
+	padding: 26px 0;
 }
 
-
-
-.Contratacion-pasosTodos
-{
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	padding: 0;
-	position: absolute;
-	text-align: center; /*para q se centren los 3 circulos*/
-	top: 50%;
-	transform: translateY(-50%);
-	width: 100%; /*para q se centren los 3 circulos*/
+.Contratacion-texto{
+	margin: 0;
+	padding: 0 20px 26px 20px;
 }
 
-.Contratacion-paso1
-{
-	background-color: #66CA00;
+.Contratacion-texto span{
+	font-weight: 700;
 }
 
-.Contratacion-paso2
-{
-	background-color: #FF5D2A;
+.color1{
+	border-bottom: #53bc00 5px solid;
 }
 
-.Contratacion-paso3
-{
-	background-color: #0082FF;
+.color2{
+	border-bottom: #ff722a 5px solid;
 }
 
-.Contratacion-paso1,
-.Contratacion-paso2,
-.Contratacion-paso3
-{
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: white 5px solid;
-	display: inline-block;
-	height: 217px;
-	margin: 5px;
-	padding: 0;
-	position: relative;
+.color3{
+	border-bottom: #0095ff 5px solid;
+}
+
+/*Puedes pagar en*/
+.Detalle{
+	background-color: #eff0f1;
+	width: 78%;
+	margin: 10px auto 0 auto;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	text-align: center;
-	width: 217px;
 }
-
-.Contratacion-texto
-{
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	color: white;
-	font-size: 0.8rem;
-	margin: 0;
-	padding: 0 1rem;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	vertical-align: middle;
-}
-
-
-
-
-.Importante
-{
-	background-color: white;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	border: #f4f5f6 2px solid;
-	display: inline-block;
-	height: 124px;
-	margin: 25px 0 50px 0;
-	padding: 0;
-	position: relative;
-	left: 103px;
-	width: 754px;
-}
-
-.Importante-texto
-{
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
+.Detalle-texto{
 	color: #676767;
-	font-size: 0.8rem;
+	padding: 10px;
+	font-size: 0.9rem;
 	margin: 0;
-	padding: 0 1rem;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	vertical-align: middle;
+}
+
+/*Mensaje IMPORTANTE*/
+.Importante{
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: white;
+	border-radius: 5px;
+	border: #f4f5f6 3px solid;
+	margin: 25px auto 50px auto;
+	padding: 0;
+	width: 80%;
+}
+
+.Importante-texto{
+	color: #676767;
+	padding: 15px;
+	font-size: 0.9rem;
 }
 
 .Importante-texto span
@@ -339,31 +318,12 @@ button{
 	color: #66CA00;
 	font-weight: 500;
 }
-/*
-.Importante
-{
-	position: relative;
-	margin: 0;
-	padding: 0;
-	left: 103px;
-	width: 734px;
-	height: 124px;
+
+.Importante-texto .titulo{
+	font-size: 1rem;
+	font-weight: 700;
 }
 
-.Importante-texto
-{
-	background-color: white;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border: #F4F5F6 2px solid;
-	font-size: 0.9rem;
-	position: absolute;
-	top: 50%;
-	vertical-align: middle;
-}
-*/
 .Footer
 {
 	background-color: #66CA00;
@@ -392,15 +352,15 @@ button{
 
 .Footer-preguntasFrecuentes
 {
-	background-color: white;
 	-moz-border-radius: 30px;
 	-ms-border-radius: 30px;
 	-o-border-radius: 30px;
 	-webkit-border-radius: 30px;
+	background-color: white;
 	border-radius: 30px;
 	border: 0;
 	color: #66CA00;
-	display: inline-block;
+	display: none;
 	float: right;
 	font-size: 0.8rem;
 	height: 31px;
@@ -408,9 +368,64 @@ button{
 	width: 163px;
 }
 
+/*ventana modal*/
+#contacto{
+	background: rgba(0,0,0,0.7);
+	bottom: 0px;
+	left: 0px;
+	opacity: 0;
+	pointer-events:none;
+	position:fixed;
+	top: 0px;
+	transition:all ease 0.5s;
+	width: 100%;
+}
 
+#contacto:target{
+	opacity: 1;
+	pointer-events:all;
+	transition:all ease 0.5s;
+}
 
+#contactoContenido{
+	background: white;
+	border-radius: 5px;
+	box-shadow: #000 0px 0px 10px;
+	margin: 5% auto;
+	padding: 20px;
+	text-align: center;
+	width: 60%;
+}
 
+#contactoContenido h3{
+	color: #66CA00;
+	font-size: 1.5rem;
+	margin: 0;
+}
 
+#contactoContenido p{
+	color: #7F8080;
+	font-size: 1rem;
+}
+
+#contactoContenido button{
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #66CA00;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	font-size: 0.9rem;
+	height: 30px;
+	margin: 5px 0 0 0;
+	padding: 5px 10px;
+	width: 100px;
+}
+
+#contactoContenido button:hover{
+	background-color: #5ba504; 
+}
 
 

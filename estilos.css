@@ -133,9 +133,10 @@ html{
 	display: inline-block;
 	margin: 0 22px 50px 22px;
 	padding: 0;
+	position: relative;
 	text-align: center;
-	width: 226px;
 	vertical-align: top;
+	width: 226px;
 }
 
 .Microservicio-boton{
@@ -181,6 +182,20 @@ html{
 	margin: 0 auto;
 	text-align: center;
 	width: 89%;
+}
+
+.Nuev{
+	background-color: #66CA00;
+	border-radius: 10px;
+	border: white 2px solid;
+	color: white;
+	font-size: 1rem;
+	margin: -10px;
+	padding: -20px;
+	padding: 5px 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 /*Mensaje (Cuadro Verde)*/
@@ -377,6 +392,7 @@ html{
 	top: 0px;
 	transition:all ease 0.5s;
 	width: 100%;
+	z-index: 100;
 }
 
 #contacto:target{
